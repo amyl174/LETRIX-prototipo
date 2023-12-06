@@ -1,0 +1,117 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff;
+  /* LightSkyBlue */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#game-container {
+  text-align: center;
+}
+
+#loading-screen {
+  display: none;
+  padding: 20px;
+}
+
+#loading-bar {
+  width: 0;
+  height: 20px;
+  background-color: #1e90ff;
+  /* DodgerBlue */
+  transition: width 0.5s;
+}
+
+#loading-text {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#loading-timer {
+  font-size: 18px;
+}
+
+#game-screen,
+#result-screen {
+  display: none;
+}
+
+#sequence-display {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#user-input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+#check-button {
+  padding: 5px 10px;
+  background-color: #1e90ff;
+  /* DodgerBlue */
+  color: #fff;
+  /* White */
+  border: none;
+  cursor: pointer;
+}
+
+#check-button:hover {
+  background-color: #1565c0;
+  /* Darker shade of DodgerBlue */
+}
+
+#timer-container {
+  margin-top: 20px;
+}
+
+#game-timer {
+  font-size: 24px;
+  color: #1e90ff;
+  /* DodgerBlue */
+}
+
+#result-screen button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #1e90ff;
+  /* DodgerBlue */
+  color: #fff;
+  /* White */
+  border: none;
+}
+
+#result-screen button:hover {
+  background-color: #1565c0;
+  /* Darker shade of DodgerBlue */
+}
+
+.hidden {
+  display: none;
+}
+
+#start-screen {
+  text-align: center;
+}
+
+#start-screen button {
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #1e90ff;
+  /* DodgerBlue */
+  color: #fff;
+  /* White */
+  border: none;
+}
+
+#start-screen button:hover {
+  background-color: #1565c0;
+  /* Darker shade of DodgerBlue */
+}
